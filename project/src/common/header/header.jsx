@@ -1,4 +1,4 @@
-import logo from "./header-imgs/logo.png";
+import logo from "./header-imgs/log.jpg";
 import Authentication from "./Authetication";
 import "./header.css";
 
