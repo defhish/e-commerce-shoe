@@ -33,16 +33,18 @@
 .nav_links{
     padding: 0 3rem;
 }
-ul{
+.navOption{
     flex: 1;
     list-style: none;
     text-align: center;
     vertical-align: middle;
 }
-ul li{
+.navOption li{
     display: inline-block;
     margin: 10px 20px;
     font-size: 18px;
     cursor: pointer;
 }
-
+.Authetication{
+    list-style: none;
+}

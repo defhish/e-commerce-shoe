@@ -9,6 +9,8 @@
 .image-slider .left{
   flex: 1 1 460px;
   padding-top: 7rem;
+}
+.image-slider .active{
   animation: left-to-right .5s linear .5s backwards;
 }
 .image-slider .left .btn{

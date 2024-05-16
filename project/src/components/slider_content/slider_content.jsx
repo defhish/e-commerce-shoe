@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import "./slider_content.css";
+
 const ImageSlider = ({ slides }) => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
@@ -16,8 +17,7 @@ const ImageSlider = ({ slides }) => {
   return (
     <div className="image-slider">
      
-    <div className='left'>
-      
+    <div className="left active">
       <span className='title'>{slides[currentSlideIndex].title}</span>
       <p className="subtitle">{slides[currentSlideIndex].subtitle}</p>
       <h3 className='decscription'>{slides[currentSlideIndex].description}</h3>
@@ -25,7 +25,7 @@ const ImageSlider = ({ slides }) => {
       <a href="#" className='btn'>Add To Card</a>
     </div>
 
-    <div className='right'>
+    <div className="right">
       <div className="slide">
         <img src={slides[currentSlideIndex].url} alt={slides[currentSlideIndex].description} className='shoe'/>
         <button onClick={goToNextSlide} className='next'><i>&#8594;</i></button>

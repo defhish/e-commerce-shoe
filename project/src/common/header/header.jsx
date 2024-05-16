@@ -1,7 +1,9 @@
+import logo from "./header-imgs/logo.png";
+import Authentication from "./Authetication";
 import "./header.css";
-import logo from "../assets/logo.png"
 
 export default function Header() {
+   
     
     return(
         <>
@@ -11,7 +13,7 @@ export default function Header() {
            
             <nav className="nav_links">
               
-             <ul>
+             <ul className="navOption">
                 <li>Home</li>
                 <li>Shop</li>
                 <li>About</li>
@@ -26,8 +28,8 @@ export default function Header() {
               <a href="#" className="profile icon-images">
                     <img src="https://cdn1.iconfinder.com/data/icons/neutro-essential/32/email-512.png" alt="Message" />
               </a>
-             
-
+            
+            <Authentication></Authentication>
            </div>
         </>
     )
