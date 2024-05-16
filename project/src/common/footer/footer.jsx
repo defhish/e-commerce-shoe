@@ -1,16 +1,11 @@
-import phone from "./footer-imgs/phone.png";
-import mail from "./footer-imgs/mailicon.png";
 import gps from "./footer-imgs/location.png";
-import facebook from "./footer-imgs/facebook.png";
-import insta from "./footer-imgs/instagram.png";
-import x from "./footer-imgs/twitter.png";
 import mcard from "./footer-imgs/mastercard.png";
 import paypal from "./footer-imgs/paypal.png";
 import visa from "./footer-imgs/visa.png";
 import btc from "./footer-imgs/bitcoin.png";
 import apay from "./footer-imgs/applepay.png";
 import gpay from "./footer-imgs/googlepay.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import "./footer.css";
 
 
