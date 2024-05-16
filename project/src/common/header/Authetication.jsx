@@ -1,6 +1,6 @@
 import Button from '@mui/material/Button';
 import { useAuth0 } from "@auth0/auth0-react";
-import "./header.css";
+import "./header.css"
 
 export default function Authentication(){
     const { loginWithRedirect, logout, isAuthenticated } = useAuth0();

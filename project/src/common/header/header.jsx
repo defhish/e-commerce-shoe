@@ -29,7 +29,7 @@ export default function Header() {
                     <img src="https://cdn1.iconfinder.com/data/icons/neutro-essential/32/email-512.png" alt="Message" />
               </a>
             
-            <Authentication></Authentication>
+           <Authentication></Authentication>
            </div>
         </>
     )
