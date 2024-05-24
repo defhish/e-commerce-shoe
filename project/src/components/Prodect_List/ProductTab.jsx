@@ -3,7 +3,8 @@ function ProductTab(){
    
     return(
         <>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)"}}>
+        <h2 style={{textAlign:"center",marginTop:"4rem"}}>Explore the widest collection of sportswear</h2>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",marginTop:"0rem"}}>
             <Product title="Adidas ZX" idx={0}/>
             <Product title="Adidas ZX" idx={1} />
             <Product title="Adidas ZX" idx={2}/>
