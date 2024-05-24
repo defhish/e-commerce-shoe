@@ -1,71 +1,70 @@
+.product-card {
+  border: 5px solid black;
+  width: 400px;
+  height: 376px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
 
-.Product{
-    position: relative;
-    border: 1px solid black;
-    border-radius: 14px;
-    width:55vh;
-    height: 58vh;
-    margin-top: 4rem;
-    margin-bottom: 50px;
-    margin-left: 70px;
-    padding: 0 5px 0 5px;
-    box-shadow: 5px 5px 5px 5px rgb(217, 208, 208);
-    background-color: white;
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+  height: 396px;
 }
-.sneaker {
-    min-height: 22vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sneaker img {
-    width: 12rem;
-    z-index: 2;
-    transition: all 0.75s ease-out;
-  }
-  .circle {
-    width: 8rem;
-    height: 8rem;
-    background: linear-gradient(
-      to right,
-      rgba(245, 70, 66, 0.75),
-      rgba(8, 83, 156, 0.75)
-    );
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-  }
 
+.image-box img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
 
-.title{
-    margin-right: 90px;
-    font-size: 25px;
-    font-weight: bolder;
-    color: black;
+.product-card-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
 }
-.description{
-    margin-top: -10px;
-    font-weight:lighter;
-    text-align:justify;
-    padding: 3px 1px 1px 1px;
+
+.product-card-price {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
-.about-card{
-    padding: 1rem 2rem;
+
+.title {
+  margin-right: 90px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
 }
-.about-card .price{
-    text-align: center;
-    padding-top: 2rem;
-    margin-left: 2rem;
+.description {
+  margin-top: -10px;
+  font-weight: lighter;
+  text-align: justify;
+  padding: 3px 1px 1px 1px;
 }
-#purchase-btn{
-    background-color: #f54642;
-    font-weight:bolder;
-    font-size: 18px;
-    color: white;
-    width: 220px;
-    margin-top: 15px;
-    margin-left: 5rem;
-    height: 39px;
-    border-radius: 18px;
-    border: 2px solid #f54642;
+.about-card {
+  padding: 1rem 2rem;
+}
+.about-card .price {
+  text-align: center;
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+#purchase-btn {
+  background-color: #f54642;
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+  width: 220px;
+  margin-top: 15px;
+  margin-left: 5rem;
+  height: 39px;
+  border-radius: 18px;
+  border: 2px solid #f54642;
 }
