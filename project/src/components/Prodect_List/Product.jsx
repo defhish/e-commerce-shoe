@@ -1,3 +1,10 @@
+import Shoes_1 from "../../assets/Shoes_1.png";
+import Shoes_2 from "../../assets/Shoes_2.png";
+import Shoes_3 from "../../assets/Shoes_3.png";
+import Shoes_4 from "../../assets/Shoes_4.png";
+import Shoes_5 from "../../assets/Shoes_5.png";
+import Shoes_6 from "../../assets/Shoes_6.png";
+
 import "./Product.css";
 
 function Product({ title, idx }) {
@@ -8,39 +15,8 @@ function Product({ title, idx }) {
     "$3,000",
     "$2,000",
     "$2,000",
-    "$5,000",
-    "$2,000",
   ];
-  let newprices = [
-    "$1,000",
-    "$1,000",
-    "$1,000",
-    "$1,000",
-    "$1,000",
-    "$1,000",
-    "$1,000",
-    "$1,000",
-  ];
-  let description = [
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-    "Our collection of shoes for men comprises of the latest trends in every style and has something just perfect, for every occasion and for everybody",
-  ];
-  let image = [
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-    "https://github.com/developedbyed/3d-card-effect/blob/master/adidas.png?raw=true",
-  ];
+  let image = [ Shoes_1,Shoes_2,Shoes_3,Shoes_4,Shoes_5,Shoes_6 ];
 
   return (
     <>
