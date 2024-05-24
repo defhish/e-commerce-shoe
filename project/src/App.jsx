@@ -1,4 +1,5 @@
 import Header from "./common/header/header.jsx";
+<<<<<<< HEAD
 import Product_Title from "./components/slider_content/Product_Title.jsx";
 import ProductTab from "./components/Prodect_List/ProductTab.jsx";
 // import First from "./assets/1.png";
@@ -10,9 +11,14 @@ import NewsLetter from "./components/Monthly News Letter/newsLetter.jsx";
 import Footer from "./common/footer/footer.jsx";
 
 
+=======
+import Footer from "./common/footer/footer.jsx";
+>>>>>>> a6b9995bf361f7a9ec375002f571b7ad5536ef96
 import "./App.css";
+import { Outlet } from "react-router-dom";
 
 function App() {
+<<<<<<< HEAD
 
   // const images = [
   //   { url:First,title:'NIKE 1 SPORTS SHOES',subtitle:'NIKE METCON SHOES',description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ad laudantium iste tenetur ab asperiores temporibus rerum eius autem eaque. Necessitatibus a ducimus, delectus similique mollitia reiciendis consequatur dolorem? Vitae.' },
@@ -28,9 +34,18 @@ function App() {
       <ProductTab></ProductTab>
       <Discount></Discount>
       <NewsLetter></NewsLetter>
+=======
+  return (
+    <>
+      <div className="container">
+        <Header></Header>
+      </div>
+
+      <Outlet />
+>>>>>>> a6b9995bf361f7a9ec375002f571b7ad5536ef96
       <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
