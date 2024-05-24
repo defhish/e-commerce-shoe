@@ -1,5 +1,6 @@
 import Header from "./common/header/header.jsx";
 import Product_Title from "./components/slider_content/Product_Title.jsx";
+import Landing_Page from "./Pages/LandingPage.jsx";
 import ProductTab from "./components/Prodect_List/ProductTab.jsx";
 import Discount from "./components/Discount/discount.jsx";
 import NewsLetter from "./components/Monthly News Letter/newsLetter.jsx";
@@ -13,7 +14,7 @@ function App() {
     <>
       <Header></Header>
       <Product_Title></Product_Title> 
-      <ProductTab></ProductTab>
+      <Landing_Page></Landing_Page>
       <Discount></Discount>
       <NewsLetter></NewsLetter>
 
