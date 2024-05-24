@@ -1,32 +1,22 @@
-import image from "../components-imges/discount-imges/img2.jpg";
+import image from "../components-imges/discount-imges/img4.jpg";
 import "./discount.css";
 function Discount() {
   return (
     <>
       <div className="discount-page">
-        <img
-          className="picture"
-          src={image}
-          alt="/"
-        />
-        <div className="discount-content" />
-        <div className="content-one">
-          <div className="discount-title">
-            <p>All Inclusive</p>
             <h1 className="discount-title-content">
               Get{" "}
-              <span className="get-discount">Discount</span>{" "}
-              For Membership
+              <span className="get-discount">discount</span>{" "}
+              for membership
             </h1>
             <p className="discount-description">
               New membership will get 20% discount for first purchase
             </p>
             <button className="button">
-              Reserve Now
+              Join now
             </button>
           </div>
-        </div>
-      </div>
+      
     </>
   );
 }
