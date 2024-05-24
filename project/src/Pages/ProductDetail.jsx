@@ -1,7 +1,7 @@
 
 
 const ProductDetail = () => {
-  return <div>ProductDetails</div>;
+  return <div></div>;
 };
 
 export default ProductDetail;
