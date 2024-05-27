@@ -87,12 +87,19 @@
 
     */
     .discount-page {
+<<<<<<< HEAD
         position: relative;
         background-image: url('../../assets/Discount_img/Discount_img.png');
         background-size: cover;
         background-position: center;
         height:600px;
         width: 100%;
+=======
+        background-image: url('../components-imges/discount-imges/img6.jpg');
+        background-size: cover;
+        background-position: center;
+        height:99vh;
+>>>>>>> f18c27f06e01ccd2b699e337fd2bf1bc59f84cc0
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -100,6 +107,7 @@
         color: rgb(255, 255, 255);
         text-align: center;
         gap: 50px;
+<<<<<<< HEAD
         margin-top: 10%;
       }
       
@@ -125,15 +133,43 @@
         font-size: 2em;
         color: white;
       }
+=======
+        margin-top: 4%;
+      }
+      
+      
+      
+      .discount-title-content {
+        font-size:3.4em;
+        font-weight: 300;
+        
+        
+      }
+      
+      
+      
+      .discount-description {
+        font-size: 2em;
+       
+
+      }
+      
+>>>>>>> f18c27f06e01ccd2b699e337fd2bf1bc59f84cc0
       .button {
         background-color: #ffffff;
         color: black;
         border: none;
         font-weight: 500;
+<<<<<<< HEAD
         transform: translateY(135px);
         padding: 10px 20px;
         font-size: 1.8em;
         margin-right: 4rem;
+=======
+        margin-top: 40px;
+        padding: 10px 20px;
+        font-size: 1.8em;
+>>>>>>> f18c27f06e01ccd2b699e337fd2bf1bc59f84cc0
         cursor: pointer;
       }
       
