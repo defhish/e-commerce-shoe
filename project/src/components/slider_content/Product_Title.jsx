@@ -1,4 +1,4 @@
-import backGroundImg from "../../assets/backGroundimg.png";
+import backGroundImg from "../../assets/Product_title/backGroundimg.png";
 import "./Product_Title.css";
 
 function Product_Title() {

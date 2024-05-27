@@ -1,9 +1,9 @@
-import Shoes_1 from "../../assets/Shoes_1.png";
-import Shoes_2 from "../../assets/Shoes_2.png";
-import Shoes_3 from "../../assets/Shoes_3.png";
-import Shoes_4 from "../../assets/Shoes_4.png";
-import Shoes_5 from "../../assets/Shoes_5.png";
-import Shoes_6 from "../../assets/Shoes_6.png";
+import Shoes_1 from "../../assets/Products_card/Shoes_1.png";
+import Shoes_2 from "../../assets/Products_card/Shoes_2.png";
+import Shoes_3 from "../../assets/Products_card/Shoes_3.png";
+import Shoes_4 from "../../assets/Products_card/Shoes_4.png";
+import Shoes_5 from "../../assets/Products_card/Shoes_5.png";
+import Shoes_6 from "../../assets/Products_card/Shoes_6.png";
 
 import "./Product.css";
 

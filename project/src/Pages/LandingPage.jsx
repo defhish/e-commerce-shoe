@@ -14,9 +14,8 @@ const LandingPage = () => {
         <h2
           style={{
             textAlign: "center",
-            fontSize: "3rem",
+            fontSize: "3.5rem",
             fontWeight: "400",
-            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
             marginBottom: "3rem",
             marginTop:"3.5rem",
             fontFamily:"poppins",

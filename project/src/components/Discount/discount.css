@@ -1,4 +1,4 @@
-.discount-page{
+/* .discount-page{
     display: flex; 
     margin-top: 7rem;
     position: relative;
@@ -85,4 +85,59 @@
 }
      
 
-   
+    */
+    .discount-page {
+        position: relative;
+        background-image: url('../../assets/Discount_img/Discount_img.png');
+        background-size: cover;
+        background-position: center;
+        height:600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        gap: 50px;
+        margin-top: 10%;
+      }
+      
+      .discount-page::before{
+        content: '';
+        max-height: 44rem;
+        width: 100%;
+        position: absolute;
+        inset: 0;
+        top: .1rem;
+        background-color: rgba(0, 0, 0, 0.34);
+      }
+      
+      .discount-title-content {
+        position: absolute;
+        top: 4rem;
+        font-size:3.4em;
+        font-weight: 300;
+      }
+      .discount-description {
+        position: absolute;
+        bottom: 18rem;
+        font-size: 2em;
+        color: white;
+      }
+      .button {
+        background-color: #ffffff;
+        color: black;
+        border: none;
+        font-weight: 500;
+        transform: translateY(135px);
+        padding: 10px 20px;
+        font-size: 1.8em;
+        margin-right: 4rem;
+        cursor: pointer;
+      }
+      
+      .button:hover {
+        background-color: #dbd8d8;
+      }
+      

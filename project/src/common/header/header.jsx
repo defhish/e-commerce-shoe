@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/Company_Logo/logo.jpg";
 import { useState } from "react";
 import "./header.css";
 
