@@ -94,8 +94,7 @@
         background-position: center;
         height:600px;
         width: 100%;
-
-        background-image: url('../components-imges/discount-imges/img6.jpg');
+        background-image: url('../../assets/Discount_img/img6.jpg');
         background-size: cover;
         background-position: center;
         height:99vh;

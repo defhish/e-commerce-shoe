@@ -1,5 +1,6 @@
 import logo from "../../assets/Company_Logo/logo.jpg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 export default function Header() {
@@ -14,19 +15,33 @@ export default function Header() {
             </div>
 
             <div className="menu-link">
+
               <ul>
+
+              <Link to={"/"}>
                 <li>
                   <a>Home</a>
                 </li>
+                </Link>
+                
+                <Link to={"/shop"}>
                 <li>
                   <a>Shop</a>
                 </li>
+                </Link>
+
+                <Link to={"/about"}>
                  <li>
                   <a>About</a>
                 </li>
+                </Link>
+                
+                <Link to={"/contact"}>
                 <li>
                   <a>Contact</a>
                 </li>
+                </Link>
+
               </ul>
             </div>
 

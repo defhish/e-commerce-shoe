@@ -3,8 +3,13 @@ import ReactDOM from "react-dom/client";
 import { Auth0Provider } from "@auth0/auth0-react";
 import App from "./App.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import LandingPage from "./Pages/LandingPage.jsx";
-import ProductDetail from "./Pages/ProductDetail.jsx";
+import AboutUs from "./Pages/AboutUs/AboutUs.jsx";
+import LandingPage from "./Pages/LandingPage/LandingPage.jsx";
+import ProductDetail from "./Pages/Shop/ProductDetail.jsx";
+import ProductPage from "./Pages/ProductPage/ProductPage.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
+
+
 
 const router = createBrowserRouter([
   {
@@ -19,6 +24,22 @@ const router = createBrowserRouter([
         path: "/",
         element: <LandingPage />,
       },
+      {
+        path: "/about",
+        element: <AboutUs></AboutUs>
+      },
+      {
+        path: "/shop",
+        element: <ProductDetail></ProductDetail>
+      },
+      {
+        path: "/shoes/1",
+        element: <ProductPage></ProductPage>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
+      }
     ],
   },
 ]);

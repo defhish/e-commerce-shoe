@@ -1,4 +1,4 @@
-import image from "../components-imges/discount-imges/img4.jpg";
+// import image from "../components-imges/discount-imges/img4.jpg";
 
 import "./discount.css";
 function Discount() {

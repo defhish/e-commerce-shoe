@@ -1,0 +1,43 @@
+.about_container{
+    margin-top: 4rem;
+}
+.about_title{
+    position: relative;
+}
+.about_title img{
+    max-height: 39rem;
+    width: 100%;
+}
+.about_title::before{
+    content: '';
+    max-height: 39rem;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    top: .1rem;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+.title{
+    top: 10rem;
+}
+.about{
+    margin-top: 4rem;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+.companylogo{
+    margin: 0 auto;
+}
+.details_container2 .companylogo img{
+    height: 15rem;
+    width: 15rem;
+    margin-top: 6rem;
+}
+.details_container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.topbrands{
+    margin-top: 8rem;
+}
