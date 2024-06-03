@@ -8,7 +8,7 @@ import LandingPage from "./Pages/LandingPage/LandingPage.jsx";
 import ProductDetail from "./Pages/Shop/ProductDetail.jsx";
 import ProductPage from "./Pages/ProductPage/ProductPage.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
-
+import Payment from "./Pages/PaymentPage/Payment.jsx";
 
 
 const router = createBrowserRouter([
@@ -35,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/shoes/1",
         element: <ProductPage></ProductPage>
+      },
+      {
+        path: "/shoes/purchase",
+        element: <Payment></Payment>
       },
       {
         path: "/contact",
