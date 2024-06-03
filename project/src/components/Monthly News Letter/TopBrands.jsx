@@ -4,19 +4,18 @@ import lv from "../../assets/Top_Brands/lv.png";
 import adidas from "../../assets/Top_Brands/adidas.png";
 import skechers from "../../assets/Top_Brands/Skechers-logo.png";
 import "./newsLetter.css";
+import Cl from "./Cl";
+
 
 function TopBrands() {
   return (
     <>
         <div className="Topbrands">
             <h2 style={{textAlign:"center"}}> Top brands Collections</h2>
-                <div className="flex1">
-                    <div><img src={nike} className="shoe-img"></img></div>
-                        <div><img src={gucci} className="shoe-img"></img></div>
-                        <div><img src={lv} className="shoe-img"></img></div>
-                        <div><img src={adidas} className="shoe-img"></img></div>
-                        <div><img src={skechers} className="shoe-img"></img></div>
-                 </div>
+                <div className="cl">
+                        <Cl/>
+                        </div>
+                 
 
         </div>
     </>
