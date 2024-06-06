@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
         <div className="contact-item-location">
           <img className="icon-gps" src={gps} alt="gps" />
-          <div className="content-contact">
+          <div className="content-location">
             <p>{add1}</p>
             <p>{add2}</p>
             <p>{citycode}</p>
@@ -106,7 +106,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer">
-        <p>designed and maintained by clumoss</p>
+        <p>Designed and maintained by clumoss</p>
       </div>
     </div>
     </>

@@ -36,10 +36,10 @@
 }
 
 .icon-gps {
-  height: 20px;
+  height: 15px;
   display: flex;
   position: relative;
-  transform: translateY(5px);
+  transform: translateX(-4px) translateY(4px);
 }
 
 .icons-payment {
@@ -69,7 +69,11 @@
 .content-contact {
   font-size: small;
   text-align: left;
-  padding-left: 5px;
+  margin-left: 5px;
+}
+.content-location {
+  font-size: small;
+  text-align: left;
 }
 
 .content {
