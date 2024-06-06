@@ -51,16 +51,12 @@
     font-size: larger;
     font-weight: 400;
 }
-.flex1{
-    width: 100%;
+.cl{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 7rem;
-    /* margin:0px 200px 0px 200px; */
+    
 }
-
 .shoe-img{
     margin-top: 4rem;
     height: 95px;
@@ -70,8 +66,7 @@
 .Topbrands h2{
     font-weight: 400;
     font-size: 2.5vw;
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> f18c27f06e01ccd2b699e337fd2bf1bc59f84cc0
+
+

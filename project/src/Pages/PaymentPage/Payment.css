@@ -1,0 +1,116 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.done{
+    color: rgb(128, 171, 128);
+}
+
+.todo{
+    color: rgb(49, 49, 149);
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#left{
+    margin: 20px 20px 0px 120px;
+}
+
+#debit{
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.cards{
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.cardImg{
+    height: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+label{
+    margin-right: 55px;
+}
+
+input{
+    position: absolute;
+    right:980px;
+}
+
+input[type="radio"]:checked{
+    accent-color: blue;
+}
+
+#right{
+    background-color:aliceblue;
+    margin: 20px 0px 0px 0px;
+    width: 30%;
+    border-radius: 15px;
+    height: 600px;
+    padding: 10px;
+    color: rgb(37, 33, 33);
+}
+
+#shoe{
+    height: 120px;
+}
+
+#head{
+    margin: 30px 0px 20px 30px;
+    color: black;
+}
+
+hr{
+    width: 90%;
+}
+
+.bill{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 25px 10px 25px;
+}
+
+.num{
+    position: absolute;
+    right: 500px;
+}
+
+#close{
+    color: red;
+    position: absolute;
+    right:500px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Pay{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    box-sizing:content-box;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #408BFC;
+    color: white;
+    font-weight: bold;
+}
+
+.box1{
+    margin-top: 50px;
+}
